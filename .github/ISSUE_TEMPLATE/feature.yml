@@ -1,5 +1,5 @@
 name: 🛠 Feature
-description: Crea un nuevo ticket para un nuevo feature
+description: Crea un ticket para un nuevo feature
 labels: ["✨ feature"]
 body:
   - type: textarea
@@ -13,9 +13,9 @@ body:
       label: Criterio de aceptación
       description: Describir en forma de checkboxes todos lo que la aplicación debe realizar una vez cerrado este ticket.
       value: |
-        - [ ]
-        - [ ]
-        - [ ]
+        - [ ] Criterio 1
+        - [ ] Criterio 2
+        - [ ] Criterio 3
         ...
     validations:
       required: true
